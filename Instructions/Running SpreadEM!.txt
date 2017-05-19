@@ -1,0 +1,26 @@
+Instructions for Installing spread Em!
+
+Download and install XCODE (To run the application)
+Download and install XAMPP (To run a SQL server)
+Download and install PHPMYADMIN ( To manage said server)
+Download and install Postman (Unless you want to run the two scripts in terminal)
+Launch XAMPP run local server
+
+Open browser
+Type in localhost
+click on PHPMYADMIN TAB
+click import
+import the data file localhost.sql found in this folder
+
+drag the folder titled vegasWebApp(The one with the php files) to:
+/Applications/XAMPP/xamppfiles/htdocs/
+
+launch postman and run: 127.0.0.1/vegasAppWeb/api/updateGames.php
+
+open the project in XCODE
+Click the play button
+
+(test what you want/make predictions)
+
+run:
+127.0.0.1/vegasAppWeb/api/scoreGames.php
