@@ -30,6 +30,7 @@ class DbOperation
     //Function to create a new user
     public function register($name, $pass)
     {
+        // the sql query statement
         $stmt = $this->conn->prepare("INSERT INTO users(name, password) values(?, ?)");
         $stmt->bind_param("ss", $name, $pass);
         $result = $stmt->execute();
